@@ -1,0 +1,21 @@
+# Environments
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Experiment tracking
+mlruns/
+mlartifacts/
+
+# Data: raw CSV is public Kaggle data, documented in data/README.md
+data/*.csv
+
+# Model artifacts are build outputs, not source...
+# ...except the demo model, committed so Streamlit Cloud can load it directly
+models/*.joblib
+!models/churn_model.joblib

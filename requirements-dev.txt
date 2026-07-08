@@ -1,0 +1,9 @@
+-r requirements.txt
+seaborn>=0.13
+matplotlib>=3.9
+jupyter
+mlflow>=2.16
+great-expectations>=1.0
+pytest>=8.0
+httpx
+python-dotenv
